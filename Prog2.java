@@ -10,9 +10,9 @@ public class Prog2
 	public static void main(String[] args) throws FileNotFoundException
 	{
 		GraphADT graph = new GraphADT();
-		File input = new File(args[0]);
+		File input = new File("input.txt");
 		Scanner fileReader = new Scanner(input);
-		
+
 		while(fileReader.hasNextLine())
 		{
 			String command = fileReader.next();
